@@ -42,7 +42,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 jekyll-crosspost_to_medium:
-  enabled: false
+  enabled: true
   cache: .jekyll-crosspost_to_medium
   status: "private"
   license: "all-rights-reserved"
