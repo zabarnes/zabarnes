@@ -1,2 +1,3 @@
 airtable-python-wrapper
 jekyllnb
+sh
