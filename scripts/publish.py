@@ -12,7 +12,7 @@ if __name__ == '__main__':
     nb.metadata['jekyll'] = {
       "layout": "single",
       "title": new_title,
-      "date": datetime.now().strftime("%Y-%m-%d"),
+      "mathjax": "true",
       "toc": "true",
     }
     nbformat.write(nb, nb_path, nbformat.NO_CONVERT)
