@@ -41,6 +41,13 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+jekyll-crosspost_to_medium:
+  enabled: false
+  cache: .jekyll-crosspost_to_medium
+  status: "private"
+  license: "all-rights-reserved"
+  backdate: true
+
 include:
   - _pages
 
