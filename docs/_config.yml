@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: zachabarnes.com
+title: "Zach Barnes"
+subtitle: "Data, Programming, Photography"
 email: zach.redirect@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Zach Barnes personal page.
@@ -23,6 +24,11 @@ minimal_mistakes_skin: default
 search: true
 repository: "zachabarnes/zachabarnes.github.io"
 breadcrumbs: true
+comments:
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  utterances:
+    theme: "github-light" # "github-light" (default), "github-dark"
+    issue_term: "title" # "pathname" (default)
 atom_feed:
   hide: true
 
@@ -97,7 +103,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
       show_date: true
   # _pages
