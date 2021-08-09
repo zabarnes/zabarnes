@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/zbarnes_small.png"
+  bio    : "TODO: BIO"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -106,10 +106,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
