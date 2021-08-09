@@ -6,3 +6,4 @@ env
 docs/Gemfile.lock
 docs/.bundle/**/**
 docs/vendor/**/**
+.temp/**/**
