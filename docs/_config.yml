@@ -18,7 +18,7 @@ subtitle: Data Science & Programming
 email: zach.redirect@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Zach Barnes personal page.
-baseurl: /
+baseurl: https://zachabarnes.com/
 twitter_username: zachabarnes_
 github_username: zachabarnes
 minimal_mistakes_skin: default
