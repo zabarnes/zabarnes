@@ -1,9 +1,10 @@
 **/chromedriver
 **/*.csv
-env
 **/.DS_Store
 .vscode/settings.json
 docs/Gemfile.lock
 docs/.bundle/**/**
 docs/vendor/**/**
 .temp/**/**
+.env
+docs/_site/**/**
