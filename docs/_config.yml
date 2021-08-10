@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "zachabarnes.com"
-subtitle: "Data Science & Programming"
+title: zachabarnes.com
+subtitle: Data Science & Programming
 email: zach.redirect@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Zach Barnes personal page.
-baseurl: "https://zachabarnes.com/"
+baseurl: /
 twitter_username: zachabarnes_
 github_username: zachabarnes
 minimal_mistakes_skin: default
