@@ -18,6 +18,7 @@ subtitle: "Data Science & Programming"
 email: zach.redirect@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Zach Barnes personal page.
+baseurl: "https://zachabarnes.com/"
 twitter_username: zachabarnes_
 github_username: zachabarnes
 minimal_mistakes_skin: default
@@ -39,7 +40,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles
 
 jekyll-crosspost_to_medium:
   enabled: true
@@ -76,7 +77,7 @@ author:
   name   : "Zach Barnes"
   avatar : "/assets/images/zbarnes_small.jpg"
   bio    : "TODO: BIO"
-  location : "CA, USA"
+  location : "California"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
